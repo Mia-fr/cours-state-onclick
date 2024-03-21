@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  width: 1300 px;
+  height: 100vh;
+  background-color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+form {
+  width: 500px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form ::placeholder {
+  color: #747373;
+}
+
+form p {
+  margin-bottom: 8px;
+}
+
+form input {
+  padding: 13.5px;
+  background-color: #fcf9f9;
+  border: #747373 1.4px solid;
+  border-radius: 4px;
+}
+
+/* .formError {
+  padding: 13.5px;
+  background-color: ##fcf9f9;
+  border: ##ffffff 1.4px solid;
+  border-radius: 4px;
+} */
+
+button {
+  background-color: #574dcc;
+  border: #574dcc 1.4px solid;
+  font-size: 14px;
+  border-radius: 4px;
   color: white;
+  padding: 13.5px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
+footer {
+  margin-top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
